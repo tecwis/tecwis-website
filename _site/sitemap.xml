@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://0.0.0.0:4000/services/cloud_computing/</loc>
-<lastmod>2020-12-27T20:55:59-06:00</lastmod>
+<lastmod>2021-08-12T15:15:35-05:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/services/development/</loc>
-<lastmod>2020-12-27T20:55:59-06:00</lastmod>
+<lastmod>2021-08-12T15:15:35-05:00</lastmod>
 </url>
 <url>
 <loc>http://0.0.0.0:4000/about/</loc>
