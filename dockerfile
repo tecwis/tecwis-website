@@ -1,7 +1,7 @@
 # Create a Jeklyll container from a Ruby Alpine image
 
 # At a minimun, use Ruby 2.5.0 or later
-FROM ruby:2.7-alpine3.15
+FROM ruby:3.0.6-alpine3.16
 
 # Add Jekyll dependencies to Alpine
 RUN apk update
@@ -11,23 +11,10 @@ RUN apk add --no-cache \
     gcc \
     bash \
     cmake \
-    git \
-    libffi-dev \
-    libxml2-dev \
-    libxslt-dev \
-    linux-headers \
-    ruby-dev \
-    ruby-json \
-    ruby-rake \
-    ruby-bigdecimal \
-    ruby-io-console \
-    ruby-irb \
-    ruby-webrick \
-    tzdata \
-    zlib-dev \
-    nodejs \
-    yarn
+    git
 
 # Update the Ruby bundler and install Jekyll
-RUN gem update bundler && gem install bundler jekyll
-
+# RUN gem install sass-embedded -v 1.62.1       
+# RUN gem update --system
+RUN gem update bundler
+RUN gem install bundler jekyll:3.9.3
