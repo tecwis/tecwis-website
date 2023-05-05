@@ -44,3 +44,11 @@ docker restart tecwis-website
 
 ## Remove container
 docker rm -f tecwis-website
+
+# Running Jekyll in a DevContainer
+
+[Develop Jekyll websites in a container](https://www.youtube.com/watch?v=owHfKAbJ6_M&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJiTNq)
+
+# Jekyll commands
+
+bundle exec jekyll serve --livereload
