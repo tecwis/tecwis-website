@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 github: [metadata]
+repository: "tecwis/tecwis-website"
 
 title: TECWIS CORP
 logo: "/assets/images/tecwis-logo.png"
@@ -26,7 +27,6 @@ twitter_username: tecwis
 github_username: tecwis
 minimal_mistakes_skin: air
 search: true
-repository: "tecwis/tecwis-website"
 
 analytics:
   provider: "google-gtag"
